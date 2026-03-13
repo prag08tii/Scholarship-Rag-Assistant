@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 .env
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-=======
-# Byte-compiled / optimized / DLL files
+.ipynb_checkpoints/# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -211,4 +208,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
->>>>>>> e42fc2d61d7eeea7e59633728aab2ec606edab05
