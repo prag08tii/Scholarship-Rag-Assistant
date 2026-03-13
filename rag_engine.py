@@ -1,19 +1,40 @@
 import os
+import streamlit as st
 from sqlalchemy import create_engine, text
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from groq import Groq
 from dotenv import load_dotenv
 
 # -----------------------------
-# LOAD ENV VARIABLES
+# LOAD ENV VARIABLES (LOCAL)
 # -----------------------------
 load_dotenv()
 
 # -----------------------------
+# GET SECRETS (DEPLOYMENT / LOCAL)
+# -----------------------------
+DATABASE_URL = None
+GROQ_API_KEY = None
+
+# Try Streamlit secrets first
+try:
+    DATABASE_URL = st.secrets["DATABASE_URL"]
+    GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+except Exception:
+    # fallback to .env
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+# Safety check
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL is not set")
+
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY is not set")
+
+# -----------------------------
 # DATABASE CONNECTION
 # -----------------------------
-DATABASE_URL = os.getenv("DATABASE_URL")
-
 engine = create_engine(DATABASE_URL)
 
 # -----------------------------
@@ -26,9 +47,7 @@ embeddings = HuggingFaceEmbeddings(
 # -----------------------------
 # GROQ CLIENT
 # -----------------------------
-client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")
-)
+client = Groq(api_key=GROQ_API_KEY)
 
 # -----------------------------
 # RETRIEVE CHUNKS FROM DATABASE
