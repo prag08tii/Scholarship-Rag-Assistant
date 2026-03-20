@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the National Scholarship Portal (NSP)?",
+    "answer": "The National Scholarship Portal (NSP) is a centralized online platform created by the Government of India to manage scholarship processes efficiently.\n\n• It provides a single interface for multiple scholarships offered by central and state governments.\n• Students can apply, verify, and track their scholarship applications in one place.\n• It ensures transparency in fund distribution and reduces duplication.\n• Direct Benefit Transfer (DBT) sends money directly to students' bank accounts.\n• It includes pre-matric, post-matric, merit-based, and minority scholarships."
+  },
+  {
+    "question": "Who can apply for scholarships through NSP?",
+    "answer": "Students who meet specific eligibility criteria can apply for scholarships through NSP.\n\n• Must be a citizen of India.\n• Should belong to eligible categories such as SC, ST, OBC, Minority, or General (depending on scheme).\n• Family income must fall within specified limits.\n• Must be enrolled in a recognized school, college, or university.\n• Should have required academic performance as per scholarship rules."
+  },
+  {
+    "question": "What documents are required for scholarship application?",
+    "answer": "Students need to submit several documents to apply for scholarships.\n\n• Aadhaar Card for identity verification.\n• Income Certificate issued by competent authority.\n• Caste Certificate (if applicable).\n• Bank account details (linked with Aadhaar).\n• Academic marksheets and certificates.\n• Passport-size photograph.\n• Domicile certificate (in some cases)."
+  },
+  {
+    "question": "What is the difference between pre-matric and post-matric scholarships?",
+    "answer": "Pre-matric and post-matric scholarships differ based on education level.\n\n• Pre-matric scholarships are for students studying in school (Class 1 to 10).\n• Post-matric scholarships are for students studying after Class 10.\n• Pre-matric focuses on basic education support.\n• Post-matric supports higher education like college and university.\n• Eligibility criteria and benefits differ for both categories."
+  },
+  {
+    "question": "How to apply for scholarships on NSP?",
+    "answer": "Applying for scholarships on NSP is a simple online process.\n\n• Visit the official NSP website.\n• Register using basic details like name, mobile number, and email.\n• Login using generated credentials.\n• Fill out the scholarship application form.\n• Upload required documents.\n• Submit the application and note the application ID for tracking."
+  },
+  {
+    "question": "What is Direct Benefit Transfer (DBT) in scholarships?",
+    "answer": "Direct Benefit Transfer (DBT) is a system used to transfer scholarship funds directly to students.\n\n• Money is credited directly to the student's bank account.\n• Eliminates middlemen and delays.\n• Ensures transparency and reduces corruption.\n• Requires Aadhaar-linked bank account.\n• Helps in faster and secure fund distribution."
+  },
+  {
+    "question": "What are merit-based scholarships?",
+    "answer": "Merit-based scholarships are awarded based on academic performance.\n\n• Students must achieve high marks or ranks.\n• No or less emphasis on financial background.\n• Encourages academic excellence.\n• Often includes additional benefits like recognition or certificates.\n• Available for school, college, and competitive exams."
+  },
+  {
+    "question": "What are need-based scholarships?",
+    "answer": "Need-based scholarships are provided based on financial conditions.\n\n• Family income is the main eligibility factor.\n• Helps economically weaker students.\n• May require income proof documents.\n• Can be combined with merit criteria in some schemes.\n• Supports education for underprivileged students."
+  },
+  {
+    "question": "Can a student apply for multiple scholarships?",
+    "answer": "Students can apply for multiple scholarships under certain conditions.\n\n• Must meet eligibility criteria for each scholarship.\n• Cannot receive benefits from duplicate schemes simultaneously.\n• Some scholarships restrict multiple benefits.\n• It is important to read guidelines carefully.\n• Applying to multiple schemes increases chances of selection."
+  },
+  {
+    "question": "How to check scholarship application status?",
+    "answer": "Students can easily track their scholarship application status online.\n\n• Login to the NSP portal using credentials.\n• Go to the 'Check Status' section.\n• Enter application ID if required.\n• View current status such as pending, verified, or approved.\n• Regularly check for updates or required actions."
+  },
+  {
+    "question": "What is income limit for scholarships?",
+    "answer": "Income limits vary depending on the scholarship scheme.\n\n• Usually ranges between ₹1 lakh to ₹8 lakh per year.\n• Different limits for SC/ST/OBC/Minority categories.\n• Must provide valid income certificate.\n• Income is verified during application process.\n• Students exceeding limits are not eligible."
+  },
+  {
+    "question": "What are minority scholarships?",
+    "answer": "Minority scholarships are provided to students from minority communities.\n\n• Applicable to Muslims, Christians, Sikhs, Buddhists, Jains, and Parsis.\n• Aims to promote education among minority groups.\n• Includes pre-matric, post-matric, and merit-cum-means schemes.\n• Requires community certificate.\n• Encourages equal educational opportunities."
+  },
+  {
+    "question": "What is renewal of scholarship?",
+    "answer": "Renewal allows students to continue receiving scholarship benefits in subsequent years.\n\n• Must maintain required academic performance.\n• Must continue in the same course.\n• Renewal application must be submitted on time.\n• Documents may need to be updated.\n• Failure to renew may lead to cancellation."
+  },
+  {
+    "question": "What happens if application is rejected?",
+    "answer": "If a scholarship application is rejected, students can take corrective steps.\n\n• Check reason for rejection in the portal.\n• Correct errors and reapply if allowed.\n• Ensure all documents are valid and complete.\n• Contact support or nodal officer if needed.\n• Learn from mistakes for future applications."
+  },
+  {
+    "question": "What are state scholarships?",
+    "answer": "State scholarships are offered by individual state governments.\n\n• Available only to residents of that state.\n• Criteria and benefits vary by state.\n• Often include support for school and college students.\n• Managed through state portals or NSP.\n• Helps promote education at regional level."
+  }
+]
